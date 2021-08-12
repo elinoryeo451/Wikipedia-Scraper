@@ -153,7 +153,7 @@ def delete_section(section):
 wikiPage = input('Please type in a wikipedia page link: ')
 wikiBrowser = driver.get(wikiPage)
 stopWords = ['am', 'is', 'are', 'were', 'was', 'be', 'being', 'been', 'have', 'has', 'had', 'do', 'does', 'did',
-             'will', 'would', 'should', 'could', 'shall', 'may', 'might', 'can', 'he', 'she', 'it', 'they', 'them', 'their'
+             'will', 'would', 'should', 'could', 'shall', 'may', 'might', 'can', 'he', 'she', 'it', 'they', 'them', 'their',
              'her', 'him', 'its', 'a', 'an', 'the', 'who', 'what', 'why', 'how', 'where', 'while', 'if', 'that', 'and',
              'by', 'with', 'to', 'at', 'in', 'on', 'as', 'like', 'for', 'but', 'of', 'about', 'or', 'from', 'this']
 articleTitle = driver.find_element_by_tag_name("h1").text
